@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap');
+body{
+    font-family: 'Noto Sans', sans-serif;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+section{
+    width: 100%;
+    height: 500px;
+    text-align: center;
+    padding: 30px 10%;
+    font-family: roboto;
+    color: brown;
+    background-color: black;
+
+
+
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+
+p{
+    font-size: 15pt;
+}
+h1{
+    margin-bottom: 20px;
+}
+
+section:nth-of-type(1) h1{
+    color: brown;
+    font-size: 90px;
+    font-weight: 500;
+    margin-top: 300px;
+}
+
+section:nth-of-type(1){
+    background-image: url("black-clover--a-jornada-de-naruto-22851689-190820211939.png");
+    color: white;
+    font-size: 60px;
+    height: 1000px;
+}
+section:nth-of-type(2){
+    height: 150px;
+    font-size: 30px;
+}
+section:nth-of-type(3){
+    background-image: url("black-clover-\ touro-negor.jpg");
+    height: 600px;
+    
+}
+section:nth-of-type(4){
+    height: 200px;
+}
+
+section:nth-of-type(5){
+    background-image: url("Asta-Black-Bulls-Devil-910x512.jpg");
+    height: 600px;
+}
+
+section:nth-of-type(6){
+height: 180px;
+}
+section:nth-of-type(7){
+    background-image: url("black-clover-4k-57-1920x1080-1-910x512.jpg");
+    height: 1000px;
+}
+
+
+
+@media only screen and (min-width:400px){
+    section:nth-of-type(2){
+        height: 290px;
+    }
+
+    section:nth-of-type(4){
+        height: 310px;
+    }
+
+    section:nth-of-type(6){
+        height: 240px;
+        }
+
+}
+
+@media only screen and (min-width:700px){
+    section:nth-of-type(2){
+        height: 180px;
+    }
+
+    section:nth-of-type(4){
+        height: 230px;
+    }
+
+    section:nth-of-type(6){
+        height: 200px;
+    }
+}
+
+
+@media only screen and (min-width:600px){
+    section:nth-of-type(2){
+        height: 180px;
+    }
+
+    section:nth-of-type(4){
+        height: 230px;
+    }
+
+    section:nth-of-type(6){
+        height: 200px;
+    }
+}
+
+
+@media only screen and (min-width:500px){
+    section:nth-of-type(2){
+        height: 250px;
+    }
+
+    section:nth-of-type(4){
+        height: 290px;
+    }
+
+    section:nth-of-type(6){
+        height: 240px;
+        }
+
+}
+
+@media only screen and (min-width:300px){
+    section:nth-of-type(2){
+        height: 290px;
+    }
+
+    section:nth-of-type(4){
+        height: 310px;
+    }
+
+    section:nth-of-type(6){
+        height: 250px;
+        }
+
+}
+
+
+
+
